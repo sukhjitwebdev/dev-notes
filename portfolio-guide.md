@@ -102,3 +102,111 @@ npm install
 npm run dev
 
 👉 This alone can impress recruiters.
+
+
+
+
+✅ Better approach (recommended)
+
+Instead of one repo with folders:
+
+Create separate repositories like:
+
+portfolio-projects:
+
+1. landing-page-tailwind/
+2. todo-app-javascript/
+3. weather-app-js/
+4. ecommerce-ui-tailwind/
+
+👉 Each repo should have:
+
+README
+Live demo (via Netlify or Vercel)
+Clean structure
+🔥 Best of BOTH worlds
+
+You can actually do both:
+
+1. Practice Repo (like your idea)
+frontend-practice/
+ ├── css/
+ ├── js/
+ └── tailwind/
+2. Portfolio Repos (separate)
+real-projects:
+- netflix-clone/
+- dashboard-app/
+- todo-app/
+
+👉 This shows:
+
+You learn
+You can also build real apps
+🚀 Pro Tip (very important)
+
+If you still want one repo, make it structured like this:
+
+frontend-projects/
+ ├── project-1-landing-page/
+ ├── project-2-todo-app/
+ └── project-3-dashboard/
+
+👉 Not by tech (css/js/tailwind)
+👉 But by project
+
+
+✅ Best repo name options
+
+Avoid vague names. Use something like:
+
+myntra-clone-css
+myntra-clone-responsive
+myntra-ui-clone
+myntra-clone-html-css-js (if JS included)
+
+👉 Keep it lowercase + hyphens (professional standard)
+
+📁 Suggested folder structure
+myntra-clone-css/
+├── index.html
+├── css/
+│   └── style.css
+├── js/              # optional
+│   └── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+└── README.md
+📝 README (very important)
+
+Don’t skip this—this is what makes your project look serious.
+
+🛍️ Myntra Clone
+📌 About
+
+This is a frontend clone of the Myntra website built using HTML, CSS, and JavaScript for learning purposes.
+
+🚀 Features
+Responsive design
+Navbar with categories
+Product grid layout
+Hover effects
+🛠️ Tech Stack
+HTML
+CSS
+JavaScript
+🌐 Live Demo
+
+(Add your deployed link here)
+
+⚠️ Disclaimer
+
+This project is for educational purposes only and is not affiliated with Myntra.
+
+🌐 Deploy it (don’t skip this)
+
+Use:
+
+Netlify
+Vercel
