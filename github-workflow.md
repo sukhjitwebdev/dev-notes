@@ -273,4 +273,9 @@ fullstack-app ✅
 
 
 
+Vite → fast dev environment
+Webpack → advanced builds
+Prettier → clean code
+ESLint → avoid bugs
+
 
